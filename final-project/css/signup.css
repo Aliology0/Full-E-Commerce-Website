@@ -1,3 +1,4 @@
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -100,7 +101,7 @@ nav {
   height: 16px;
 }
 
-/* === Sign Up part === */
+/* === Sign Up Page Layout === */
 .signup-container {
   display: flex;
   align-items: center;
@@ -252,12 +253,13 @@ footer {
   margin-bottom: 30px;
 }
 
-.footer-section h3, .footer-section h4 {
+.footer-section h3,
+.footer-section h4 {
   margin-bottom: 25px;
 }
 
 .footer-container p {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .footer-section h3 {
@@ -327,14 +329,15 @@ footer {
 
 .social-icons {
   display: flex;
-  gap: 15px;
+  gap: 30px;
   margin-top: 10px;
 }
 
-.social-icons img ,.email-subscribe img{
+.social-icons img,
+.email-subscribe img {
   width: 20px;
   height: 20px;
-  filter: brightness(0) invert(1); 
+  filter: brightness(0) invert(1);
   transition: 0.3s;
 }
 
@@ -343,8 +346,10 @@ footer {
 }
 
 .store-buttons img {
-   width: 20px;
-   height: 20px;
+  margin-top: 10px;
+  width: 100px;
+  height: 33px;
+  border-radius: 5px;
 }
 
 .footer-section ul {
