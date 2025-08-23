@@ -164,6 +164,7 @@ nav {
 .stat-box {
     border: 1px solid #ddd;
     border-radius: 8px;
+    border: solid #bbbbbb 1px;
     padding: 25px 15px;
     transition: 0.3s;
 }
@@ -448,3 +449,4 @@ footer {
     padding-top: 10px;
     color: #bbb;
 }
+
