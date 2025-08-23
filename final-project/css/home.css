@@ -17,9 +17,24 @@ body {
 }
 
 .nav-icons .icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-icons .icon:hover {
+  background-color: #db4444;
+}
+
+.nav-icons .icon img {
   width: 24px;
   height: 24px;
-  cursor: pointer;
+  display: block;
 }
 
 .home-container {
@@ -80,12 +95,13 @@ body {
   justify-content: space-between;
   padding: 45px 80px;
   gap: 60px;
-  width: 100%;
+  width: 95%;
   box-sizing: border-box;
   position: relative;
   min-height: 400px;
   margin-bottom: 100px;
   margin-top: 40px;
+  margin-left: 20px;
 }
 
 .promo-content {
@@ -643,6 +659,10 @@ h2 {
   cursor: pointer;
 }
 
+.view-all-btn :hover {
+  background: #b93535;
+}
+
 .cards-container {
   display: flex;
   gap: 20px;
@@ -693,7 +713,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-.time-box {
+.time-circle {
   background: white;
   color: black;
   border-radius: 50%;
@@ -704,12 +724,12 @@ h2 {
   font-weight: bold;
 }
 
-.time-box span {
+.time-circle span {
   display: block;
   font-size: 18px;
 }
 
-.time-box small {
+time-circle small {
   font-size: 12px;
 }
 
@@ -877,4 +897,175 @@ h2 {
   background-color: #fff;
   width: 90%;
   margin: 50px auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: stretch;
+  width: 1220px;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.left .cardf {
+  height: 100%;
+  min-height: 520px;
+  background-color: #000;
+  background-size: 500px 500px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  padding: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right .top,
+.right .bottom {
+  flex: 1;
+}
+
+.right .top .cardf {
+  height: 100%;
+  min-height: 250px;
+  background-color: #000;
+  background-size: 432px 284px;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 20px;
+  color: white;
+
+}
+
+.right .bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 100%;
+}
+
+.right .bottom .cardf {
+  background-color: #000;
+  background-size: 180px 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 20px;
+  color: white;
+}
+
+
+.overlay {
+  background: none;
+  padding: 0;
+  width: auto;
+}
+
+.overlay h2 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.overlay a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.overlay a:hover {
+  color: #db4444;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  padding: 120px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-bottom: 0px;
+}
+
+.service {
+  max-width: 250px;
+}
+
+.icon-service {
+  width: 64px;
+  height: 64px;
+  background-color: #000;
+  border: 8px solid #c1c1c1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  transition: transform 0.3s ease;
+}
+
+.icon-service:hover {
+  transform: scale(1.05);
+}
+
+.icon-service img {
+  width: 28px;
+  height: 28px;
+  filter: invert(100%);
+}
+
+.service h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 14px;
+  color: #333;
+}
+
+.scroll-up-arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 60px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+  background-color: #f2f2f2;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-up-arrow img {
+  width: 20px;
+  height: 20px;
+}
+
+.scroll-up-arrow:hover {
+  background-color: #db4444;
 }
