@@ -251,10 +251,6 @@ body {
   border-radius: 3px;
 }
 
-.label-text {
-  text-transform: uppercase;
-}
-
 h2 {
   font-size: 28px;
   font-weight: 700;
@@ -496,6 +492,12 @@ h2 {
   color: #fff;
 }
 
+a img:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
 /* -------------------------------------------------------------------------------------*/
 
 .category-section {
@@ -533,10 +535,6 @@ h2 {
   height: 20px;
   background-color: #db4444;
   border-radius: 3px;
-}
-
-.label-text {
-  text-transform: uppercase;
 }
 
 .slider-icons {
@@ -1068,4 +1066,9 @@ time-circle small {
 
 .scroll-up-arrow:hover {
   background-color: #db4444;
+}
+
+.label-icon {
+  height: 30px;
+  width: 15px;
 }
