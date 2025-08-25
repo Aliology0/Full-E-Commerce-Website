@@ -8,31 +8,33 @@ https://www.figma.com/design/1eALvPQzNaT2gGrFnV804k/Full-E-Commerce-Website-UI-U
   * HTML
   * CSS
 
-## ✨ Features
-- 🏠 **Home Page**
-- 🛒 **Shopping Cart**
-- 💳 **Checkout Page** 
-- ❤️ **Wishlist**
-- 👤 **User Account**
-- 🔐 **Login & Signup**
-- 📞 **Contact Page**
-- ❌ **Custom Error Page (404)**
+##  Features
+-  **Home Page**
+-  **Shopping Cart**
+-  **Checkout Page** 
+-  **Wishlist**
+-  **User Account**
+-  **Login & Signup**
+-  **Contact Page**
+-  **Custom Error Page (404)**
 
-## 📂 Project Structure
+##  Project Structure
+
+```plaintext
 final-project/
-│── assets/ # images and other assets
-│── css/ # CSS styles for each page
-│ ├── about.css
-│ ├── account.css
-│ ├── cart.css
-│ ├── checkout.css
-│ ├── contact.css
-│ ├── error.css
-│ ├── home.css
-│ ├── login.css
-│ ├── products.css
-│ ├── signup.css
-│ └── wishlist.css
+│── assets/           # images and icons
+│── css/             
+│   ├── about.css
+│   ├── account.css
+│   ├── cart.css
+│   ├── checkout.css
+│   ├── contact.css
+│   ├── error.css
+│   ├── home.css
+│   ├── login.css
+│   ├── products.css
+│   ├── signup.css
+│   └── wishlist.css
 │
 │── about.html
 │── account.html
