@@ -7,7 +7,64 @@ https://www.figma.com/design/1eALvPQzNaT2gGrFnV804k/Full-E-Commerce-Website-UI-U
 ## Skills: 
   * HTML
   * CSS
-  
+
+## ✨ Features
+- 🏠 **Home Page**
+- 🛒 **Shopping Cart**
+- 💳 **Checkout Page** 
+- ❤️ **Wishlist**
+- 👤 **User Account**
+- 🔐 **Login & Signup**
+- 📞 **Contact Page**
+- ❌ **Custom Error Page (404)**
+
+## 📂 Project Structure
+final-project/
+│── assets/ # images and other assets
+│── css/ # CSS styles for each page
+│ ├── about.css
+│ ├── account.css
+│ ├── cart.css
+│ ├── checkout.css
+│ ├── contact.css
+│ ├── error.css
+│ ├── home.css
+│ ├── login.css
+│ ├── products.css
+│ ├── signup.css
+│ └── wishlist.css
+│
+│── about.html
+│── account.html
+│── cart.html
+│── checkout.html
+│── contact.html
+│── error.html
+│── home.html
+│── login.html
+│── product.html
+│── signup.html
+│── wishlist.html
+│
+└── README.md
+
+---
+
+## 👥 Team
+
+- **Matilda**  
+  GitHub: [@matilda2a](https://github.com/matilda2a)  
+
+- **Ali**  
+  GitHub: [@Aliology0](https://github.com/Aliology0)  
+
+- **Abdellrahman**  
+  GitHub: [@abdellrahmanmo](https://github.com/abdellrahmanmo)  
+
+---
+
+
+
 <img src="https://www.horizont.com.hr/posao/frontend-developer.gif"/>
 
 
