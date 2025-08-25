@@ -219,7 +219,6 @@ body {
 
 .slider-icons .arrow-icon:hover {
   background-color: #db4444;
-  filter: invert(1);
 }
 
 .section-info {
@@ -554,7 +553,6 @@ a img:hover {
 
 .arrow-icon:hover {
   background-color: #db4444;
-  filter: invert(1);
 }
 
 .category-carousel {
@@ -1072,3 +1070,4 @@ time-circle small {
   height: 30px;
   width: 15px;
 }
+
