@@ -7,6 +7,7 @@
 body {
     background: #fff;
     color: #000;
+    font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -14,7 +15,6 @@ body {
     max-width: 1200px;
     margin: auto;
     padding: 20px 0;
-    font-family: 'Arial', sans-serif;
 }
 
 /* --- Header --- */
@@ -103,6 +103,43 @@ nav {
 .search-bar button img {
     width: 16px;
     height: 16px;
+}
+
+.search-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-icons .icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-icons .icon:hover {
+    background-color: #db4444;
+}
+
+.nav-icons .icon img {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.icon.active {
+    background-color: #db4444;
+    box-shadow: 0 0 8px rgba(219, 68, 68, 0.7);
 }
 
 /* Breadcrumb */
@@ -351,9 +388,16 @@ footer {
     transform: scale(1.1);
 }
 
+.social-icons {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
 .store-buttons img {
-    width: 20px;
-    height: 20px;
+    width: 120px;
+    margin-bottom: 8px;
+    display: block;
 }
 
 .footer-section ul {
