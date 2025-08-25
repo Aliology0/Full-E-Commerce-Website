@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wishlist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/wishlist.css">
 </head>
 
@@ -27,22 +28,40 @@
                 <li><a href="home.html">Home</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="signup.html" class="active">Sign Up</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
             </ul>
-            <div class="search-bar">
-                <input type="text" placeholder="What are you looking for?" />
-                <button>
-                    <img src="assets/icons/search.png" alt="Search" />
-                </button>
-            </div>
 
+            <div class="search-icons">
+                <div class="search-bar">
+                    <input type="text" placeholder="What are you looking for?" />
+                    <button>
+                        <img src="assets/icons/search.png" alt="Search" />
+                    </button>
+                </div>
+
+                <div class="nav-icons">
+                    <a href="wishlist.html" class="icon active">
+                        <img src="assets/icons/like.png" alt="Wishlist" />
+                    </a>
+                    <a href="cart.html" class="icon">
+                        <img src="assets/icons/cart.png" alt="Cart" />
+                    </a>
+                    <a href="account.html" class="icon">
+                        <img src="assets/icons/user.png" alt="User" />
+                    </a>
+                </div>
+
+
+            </div>
         </nav>
     </header>
 
     <!-- Wishlist Header -->
     <section class="wishlist-header container">
         <h2>Wishlist (4)</h2>
-        <button class="btn-outline">Move All To Bag</button>
+        <a href="error.html">
+            <button class="btn-outline">Move All To Bag</button>
+        </a>
     </section>
 
     <!-- Wishlist Grid -->
@@ -103,7 +122,9 @@
             <span class="red-bar"></span>
             <h2>Just For You</h2>
         </div>
-        <button class="btn-outline">See All</button>
+        <a href="error.html">
+            <button class="btn-outline">See All</button>
+        </a>
     </section>
 
     <!-- Recommendations Grid -->
@@ -170,8 +191,6 @@
             </div>
         </div>
     </section>
-
-
 
     <footer>
         <div class="footer-container">
