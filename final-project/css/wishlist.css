@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     color: #000;
     background: #fff;
 }
@@ -75,6 +75,11 @@ nav {
     text-decoration: underline;
 }
 
+.icon.active {
+    background-color: #db4444;
+    box-shadow: 0 0 8px rgba(219, 68, 68, 0.7);
+}
+
 /* Search Bar */
 .search-bar {
     display: flex;
@@ -104,7 +109,37 @@ nav {
     height: 16px;
 }
 
+.search-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
 
+.nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-icons .icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-icons .icon:hover {
+    background-color: #db4444;
+}
+
+.nav-icons .icon img {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
 
 /* Header sections */
 .wishlist-header,
@@ -371,7 +406,7 @@ footer {
 
 .social-icons {
     display: flex;
-    gap: 15px;
+    gap: 30px;
     margin-top: 10px;
 }
 
@@ -388,8 +423,10 @@ footer {
 }
 
 .store-buttons img {
-    width: 20px;
-    height: 20px;
+    margin-top: 10px;
+    width: 100px;
+    height: 33px;
+    border-radius: 5px;
 }
 
 .footer-section ul {
