@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/checkout.css">
     <title>Checkout</title>
 </head>
@@ -25,20 +26,37 @@
         <nav>
             <div class="logo">Exclusive</div>
             <ul class="nav-links">
-                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html" class="active">Home</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="signup.html" class="active">Sign Up</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
             </ul>
-            <div class="search-bar">
-                <input type="text" placeholder="What are you looking for?" />
-                <button>
-                    <img src="assets/icons/search.png" alt="Search" />
-                </button>
-            </div>
 
+            <div class="search-icons">
+                <div class="search-bar">
+                    <input type="text" placeholder="What are you looking for?" />
+                    <button>
+                        <img src="assets/icons/search.png" alt="Search" />
+                    </button>
+                </div>
+
+                <div class="nav-icons">
+                    <a href="wishlist.html" class="icon">
+                        <img src="assets/icons/like.png" alt="Wishlist" />
+                    </a>
+                    <a href="cart.html" class="icon">
+                        <img src="assets/icons/cart.png" alt="Cart" />
+                    </a>
+                    <a href="account.html" class="icon">
+                        <img src="assets/icons/user.png" alt="User" />
+                    </a>
+                </div>
+
+
+            </div>
         </nav>
     </header>
+
     <div class="container">
 
         <!-- Breadcrumb -->
@@ -117,10 +135,13 @@
 
                 <div class="coupon">
                     <input type="text" placeholder="Coupon Code">
-                    <button class="apply">Apply Coupon</button>
+                    <a href="error.html">
+                        <button class="apply">Apply Coupon</button>
+                    </a>
                 </div>
-
-                <button type="submit" class="place-order">Place Order</button>
+                <a href="error.html">
+                    <button type="submit" class="place-order">Place Order</button>
+                </a>
             </div>
         </div>
     </div>
